@@ -1,0 +1,157 @@
+body {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 40rem;
+    padding: 1rem 2rem 0.5rem 2rem;
+}
+
+header {
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+body > * + * {
+    border-top: 1px solid #DDD;
+    padding-top: 1rem;
+}
+
+section {
+    padding: 1rem 0;
+}
+
+section > footer {
+    font-size: 0.5rem;
+}
+
+footer {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.375;
+}
+
+h2 {
+    font-size: 2.25rem;
+    line-height: 1.25;
+}
+
+h3 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+}
+
+h4 {
+    font-size: 1.125rem;
+    line-height: 1.25;
+}
+
+h5, h6 {
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.375;
+}
+
+blockquote {
+    line-height: 1.25;
+}
+
+blockquote ul {
+    list-style: none;
+    padding-left: 2rem;
+    margin: 0.5rem 0;
+}
+
+a, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #efefef;
+}
+
+.charter {
+    font-family: "Charter";
+}
+.charter blockquote ul {
+    font-style: italic;
+}
+.charter p {
+    margin-top: 0.5rem;
+    text-indent: 2rem;
+}
+
+.eb-garamond {
+    font-family: "EB Garamond";
+}
+header.eb-garamond,
+.eb-garamond h1 {
+    color: #9f0000;
+}
+header.eb-garamond,
+.eb-garamond h1,
+.eb-garamond h2,
+.eb-garamond h3,
+.eb-garamond h4,
+.eb-garamond h5,
+.eb-garamond h6 {
+    font-style: italic;
+    font-weight: normal;
+}
+.eb-garamond footer {
+    font-family: "EB Garamond Small";
+}
+.eb-garamond blockquote {
+    line-height: 1.3;
+}
+
+@media (max-width: 480px) {
+    body {
+        max-width: 20rem;
+        padding: 0 1rem;
+    }
+
+    header {
+        font-size: 4rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        line-height: 1.25;
+    }
+
+    h2 {
+        font-size: 1.625rem;
+        line-height: 1.15;
+    }
+
+    h3 {
+        font-size: 1.375rem;
+        line-height: 1.15;
+    }
+
+    h4 {
+        font-size: 1.125rem;
+        line-height: 1.1;
+    }
+
+    h5, h6 {
+        font-size: 1rem;
+        line-height: 1.1;
+    }
+
+    p {
+        line-height: 1.25;
+    }
+}

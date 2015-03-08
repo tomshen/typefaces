@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Typefaces</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript">
+    /* Choose a random font for the header */
+    window.onload = function () {
+        var sectionClasses = Array.prototype.map.call(
+            document.getElementsByTagName('section'),
+            function ($node) {
+                return $node.className;
+            });
+        var randomSectionClass = sectionClasses[Math.floor(
+            Math.random() * sectionClasses.length)];
+        document.getElementsByTagName('header')[0].className = randomSectionClass;
+    };
+    </script>
+</head>
+<body>
+    <header>
+        Typefaces
+    </header>
+    <section class="charter">
+        <link rel="stylesheet" type="text/css" href="fonts/charter/font.css">
+        <h1><a href="http://practicaltypography.com/charter.html">Charter</a></h1>
+        <blockquote>
+            <ul>
+                <li>“It was the best of times,</li>
+                <li>it was the worst of times,</li>
+                <li>it was the age of wisdom,</li>
+                <li>it was the age of foolishness,</li>
+                <li>it was the epoch of belief,</li>
+                <li>it was the epoch of incredulity,</li>
+                <li>it was the season of Light,</li>
+                <li>it was the season of Darkness,</li>
+                <li>it was the spring of hope,</li>
+                <li>it was the winter of despair,</li>
+            </ul>
+            <p>
+                we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way— in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.”
+            </p>
+        </blockquote>
+        — Charles Dickens, <i>A Tale of Two Cities</i>
+    </section>
+    <section class="eb-garamond">
+        <link rel="stylesheet" type="text/css" href="fonts/eb-garamond/font.css">
+        <h1><a href="http://www.georgduffner.at/ebgaramond/">EB Garamond</a></h1>
+        <blockquote>
+            “A few light taps upon the pane made him turn to the window. It had begun to snow again. He watched sleepily the flakes, silver and dark, falling obliquely against the lamplight. The time had come for him to set out on his journey westward. Yes, the newspapers were right: snow was general all over Ireland. It was falling on every part of the dark central plain, on the treeless hills, falling softly upon the Bog of Allen and, farther westward, softly falling into the dark mutinous Shannon waves. It was falling, too, upon every part of the lonely churchyard on the hill where Michael Furey lay buried. It lay thickly drifted on the crooked crosses and headstones, on the spears of the little gate, on the barren thorns. His soul swooned slowly as he heard the snow falling faintly through the universe and faintly falling, like the descent of their last end, upon all the living and the dead.”
+        </blockquote>
+        — James Joyce, <i>Dubliners</i>
+    </section>
+    <footer>
+        Created by <a href="http://www.tomshen.me/">Tom Shen</a>. Inspired by <a href="http://hellohappy.org/beautiful-web-type/">Beautiful Web Type</a>.
+    </footer>
+</body>
+</html>

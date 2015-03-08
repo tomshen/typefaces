@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('EBGaramond12-Regular.eot');
+    src: url('EBGaramond12-Regular.eot?#iefix') format('embedded-opentype'),
+         url('EBGaramond12-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('EBGaramond12-Italic.eot');
+    src: url('EBGaramond12-Italic.eot?#iefix') format('embedded-opentype'),
+         url('EBGaramond12-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'EB Garamond Small';
+    src: url('EBGaramond08-Regular.eot');
+    src: url('EBGaramond08-Regular.eot?#iefix') format('embedded-opentype'),
+         url('EBGaramond08-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond Small';
+    src: url('EBGaramond08-Italic.eot');
+    src: url('EBGaramond08-Italic.eot?#iefix') format('embedded-opentype'),
+         url('EBGaramond08-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
