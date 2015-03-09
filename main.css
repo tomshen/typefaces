@@ -58,13 +58,9 @@ h5, h6 {
     line-height: 1.25;
 }
 
-p {
+p, blockquote {
     font-size: 1rem;
     line-height: 1.375;
-}
-
-blockquote {
-    line-height: 1.25;
 }
 
 blockquote ul {
@@ -79,41 +75,6 @@ a, a:visited {
 }
 a:hover {
     background-color: #efefef;
-}
-
-.charter {
-    font-family: "Charter";
-}
-.charter blockquote ul {
-    font-style: italic;
-}
-.charter p {
-    margin-top: 0.5rem;
-    text-indent: 2rem;
-}
-
-.eb-garamond {
-    font-family: "EB Garamond";
-}
-header.eb-garamond,
-.eb-garamond h1 {
-    color: #9f0000;
-}
-header.eb-garamond,
-.eb-garamond h1,
-.eb-garamond h2,
-.eb-garamond h3,
-.eb-garamond h4,
-.eb-garamond h5,
-.eb-garamond h6 {
-    font-style: italic;
-    font-weight: normal;
-}
-.eb-garamond footer {
-    font-family: "EB Garamond Small";
-}
-.eb-garamond blockquote {
-    line-height: 1.3;
 }
 
 @media (max-width: 480px) {
@@ -154,4 +115,43 @@ header.eb-garamond,
     p {
         line-height: 1.25;
     }
+}
+
+.charter {
+    font-family: Charter;
+}
+.charter blockquote ul {
+    font-style: italic;
+}
+.charter blockquote p:first-of-type {
+    margin-top: 0.5rem;
+    text-indent: 2rem;
+}
+
+.eb-garamond {
+    font-family: "EB Garamond";
+}
+header.eb-garamond,
+.eb-garamond h1 {
+    color: #9f0000;
+}
+header.eb-garamond,
+.eb-garamond h1,
+.eb-garamond h2,
+.eb-garamond h3,
+.eb-garamond h4,
+.eb-garamond h5,
+.eb-garamond h6 {
+    font-style: italic;
+    font-weight: normal;
+}
+.eb-garamond footer {
+    font-family: "EB Garamond Small";
+}
+.eb-garamond blockquote {
+    line-height: 1.3;
+}
+
+.lora {
+    font-family: Lora;
 }
