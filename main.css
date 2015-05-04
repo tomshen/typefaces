@@ -25,7 +25,7 @@ section > footer {
     font-size: 0.5rem;
 }
 
-footer {
+body > footer {
     font-style: italic;
 }
 
@@ -67,6 +67,14 @@ blockquote ul {
     list-style: none;
     padding-left: 2rem;
     margin: 0.5rem 0;
+}
+
+blockquote footer:before {
+    content: '— ';
+}
+
+cite {
+    font-style: italic;
 }
 
 a, a:visited {
@@ -144,9 +152,6 @@ header.eb-garamond,
 .eb-garamond h6 {
     font-style: italic;
     font-weight: normal;
-}
-.eb-garamond footer {
-    font-family: "EB Garamond Small";
 }
 .eb-garamond blockquote {
     line-height: 1.3;
